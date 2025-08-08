@@ -1,0 +1,43 @@
+forking a repository on GitHub:
+
+
+1. Locate the repository
+Go to the GitHub repository you want to fork.
+
+2. Click “Fork”
+In the top-right corner, click the **Fork** button.
+GitHub will create a copy of the repository under your own account.
+
+3. Clone your fork locally
+On your forked repository page, click **Code** → copy the HTTPS/SSH link → run in your terminal or GitHub Desktop:
+
+
+git clone <repository-link>
+
+
+4. Create a new branch
+Switch to a new branch to make your changes:
+
+
+git checkout -b <branch-name>
+
+
+5. Make changes
+
+Edit, add, or delete files as needed.
+
+6. Commit and push
+Commit your changes locally and push them to your fork:
+
+
+git add .
+git commit -m "Description of changes"
+git push origin <branch-name>
+
+
+7. Create a Pull Request
+Go to your fork on GitHub → you’ll see a **Compare & pull request** button → click it.
+Fill in the title and description, then submit the pull request to the original repository.
+
+
+If you want, I can now explain **how this fork connects with pull requests** so that your PR count increases.
